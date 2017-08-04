@@ -17,9 +17,12 @@ class ViewController: UIViewController {
         //just to modify
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    /* This code will bring from second screen to first screen
+       You have to then drag from that back arrow to the third option on top
+     which will pop up this unwindFromSkillVC
+     */
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
+        
     }
 
 
